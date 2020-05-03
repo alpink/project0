@@ -1,0 +1,39 @@
+﻿/* line 4, ../project0/scss/lists.scss */
+ul > li {
+  font-size: 14px;
+  color: blue;
+}
+
+/* line 9, ../project0/scss/lists.scss */
+ol > li {
+  font-size: 14px;
+  color: darkgreen;
+}
+
+/* line 14, ../project0/scss/lists.scss */
+.g, .y, .r{
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid dimgray;
+  padding: 10px;
+  margin: 5px;
+  width: 30%;
+  text-align: center;
+}
+
+/* line 26, ../project0/scss/lists.scss */
+.g {
+  background-color: lightgreen;
+}
+
+/* line 31, ../project0/scss/lists.scss */
+.y {
+  background-color: yellow;
+}
+
+/* line 36, ../project0/scss/lists.scss */
+.r {
+  background-color: red;
+}
+
+/*# sourceMappingURL=lists.css.map */
