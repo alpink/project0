@@ -1,12 +1,11 @@
 
-
 $color: blue;
-ul >li {
+ul &gt;li {
     font-size: 14px;
     color: $color;
 }
 $color: darkgreen;
-ol>li {
+ol&gt;li {
     font-size: 14px;
     color: $color;
 }
@@ -37,3 +36,4 @@ $color:r;
     @extend %message;
     background-color: $color;
 }
+
