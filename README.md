@@ -12,7 +12,8 @@ I used Bootstrap for column layout as required and I also found advice on how to
 I tested the site on my Windows laptop uses Chrome, Firefox, Edge and Internet Explorer, on an Android phone using Chrome and on an Amazon tablet using Silk. I did not have access to any Apple devices.
 
 PROBLEMS
-I had problems with the media query not working. I wanted an image, in a figure element to float to the right of the screen but on smaller screen float to the left.
+
+I had problems with the media query not working. I wanted an image, in a figure element, to float to the right of the screen but on smaller screen float to the left.
 Eventually I realised that the line 
 	@media screen and (max-width: 600) 
 should have been
