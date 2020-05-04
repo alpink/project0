@@ -22,17 +22,17 @@ ol>li {
     text-align: center;
 }
 
-$color: lightgreen;
+$color: g;
 .success {
     @extend %message;
     background-color: $color;
 }
-$color: yellow;
+$color: y;
 .warning {
     @extend %message;
     background-color: $color;
 }
-$color:red;
+$color:r;
 .error {
     @extend %message;
     background-color: $color;
