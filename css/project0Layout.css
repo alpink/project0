@@ -18,6 +18,7 @@ li:hover{
 section{
 	padding:20px;
 	margin-bottom:10px;
+	background-color:lightskyblue;
 }
 
 @media screen and (max-width: 600px) {
@@ -46,10 +47,6 @@ header{
 	font-family: 'Lato', sans-serif;
 }
 
-section{
-	background-color:lightskyblue;
-}
-
 table{
 	border:thick;
 	border-color:blue;
@@ -66,15 +63,14 @@ th,td{
 	padding:5px;
 	text-align:center;
 }
+
 .rightSide{
 	float:right;
 }
-
 .leftSide{
 	float:left;
 	width:100%
 	}
-
 .centred{
 	text-align:center;
 }
@@ -82,14 +78,9 @@ th,td{
 	background-color:azure;
 	padding:10px;
 	}
-
-.nav{
-	background-color:lightskyblue;
-}
 .active{
 	color:gray;
 }
-
 .col-3{
 	margin-top:10px;
 }
@@ -97,8 +88,3 @@ th,td{
 	width: 100%;
 }
 
-#main{
-	margin-top:10px;
-	padding:10px;
-	background-color:lightblue;
-}
