@@ -17,7 +17,7 @@ PROBLEMS
 I had problems with the media query not working. I wanted an image, in a figure element to float to the right of the screen but on smaller screen float to the left.
 =======
 I had problems with the media query not working. I wanted an image, in a figure element, to float to the right of the screen but on smaller screen float to the left.
->>>>>>> e67a40feae9b95b8f2425cc456525bb869697d32
+
 Eventually I realised that the line 
 	@media screen and (max-width: 600) 
 should have been
