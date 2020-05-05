@@ -13,11 +13,25 @@ I tested the site on my Windows laptop uses Chrome, Firefox, Edge and Internet E
 
 PROBLEMS
 
+<<<<<<< HEAD
+I had problems with the media query not working. I wanted an image, in a figure element to float to the right of the screen but on smaller screen float to the left.
+=======
 I had problems with the media query not working. I wanted an image, in a figure element, to float to the right of the screen but on smaller screen float to the left.
+>>>>>>> e67a40feae9b95b8f2425cc456525bb869697d32
 Eventually I realised that the line 
 	@media screen and (max-width: 600) 
 should have been
 	@media screen and (max-width: 600px).
 
 
+LESSONS LEARNT
 
+Lots! Here are some things:
+
+Firstly, use GIT ommints more often. Being able to restore a file was incredibly useful and I need to make sure I can do this whenever needed.
+
+Using <meta name="viewport" content="width=device-width, initial-scale=1.0"> to ensure that smaller screens aren't scaled down.
+
+Being more precise. It took me too long to realise my error with the media query.
+
+Using Bootstrap. I could have used more features of Bootstrap including its implementations of media queries. Using columns was easy using the bootstarp model - as long as I remembered the row!
